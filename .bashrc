@@ -270,6 +270,11 @@ alias s='git status'
 alias d='git diff $1'
 alias git-graph='git log --all --decorate --oneline --graph'
 alias gg=git-graph
+
+export VISUAL=nvim
+export EDITOR=$VISUAL
+export GIT_EDITOR=$VISUAL
+
 alias co='git checkout $1'
 alias pull='git pull'
 alias switch='git switch $1'
