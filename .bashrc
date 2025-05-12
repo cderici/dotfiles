@@ -200,6 +200,7 @@ alias ta='tmux attach'
 
 alias tc='tmux attach-session -t code'
 alias tt='tmux attach-session -t terminal'
+alias td='tmux attach-session -t thesis'
 
 # find proxmox logs older than 90 days
 # find /var/log/proxmox-backup/tasks -type f  -name 'UPID*' -mtime +90 -delete
